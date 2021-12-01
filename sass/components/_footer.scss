@@ -1,0 +1,21 @@
+.footer {
+    padding: 60px 0;
+
+    background-color: $footer-bg-color;
+
+    &__container {
+        display: flex;
+    }
+
+    &__logo {
+        display: inline-block;
+        margin-bottom: 20px;
+        color: $primary-white-color;
+    }
+
+    &__subscription {
+        margin-left: 94px;
+        padding-top: 12px;
+    }
+
+}

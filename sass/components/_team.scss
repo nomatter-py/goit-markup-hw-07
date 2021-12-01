@@ -1,0 +1,15 @@
+.team {
+    @extend %section;
+    background-color: $secondary-bg-color;
+
+    &__title {
+        @extend %section-title;
+        margin-bottom: 50px;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+    }
+
+}

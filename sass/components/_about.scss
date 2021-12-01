@@ -1,0 +1,36 @@
+.about {
+    @extend %section;
+
+
+    &__title {
+        @extend %section-title;
+        margin-bottom: 94px;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        @extend %list;
+    }
+
+    &__item {
+        position: relative;
+    }
+
+    &__description {
+        position: absolute;
+        bottom: 0;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        width: 100%;
+        height: 70px;
+    
+        color: $primary-white-color;
+        background: $about-layout-bg-color;
+
+    }
+
+}

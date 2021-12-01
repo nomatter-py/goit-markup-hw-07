@@ -10,14 +10,16 @@
     letter-spacing: 0.03em;
     
     &__text{
-        color: var(--accent-color);
+        color: $accent-color;
+    }
+
+    &.page-header__logo{
+        color: $primary-logo-color;
     }
 
 }
 
-.page-header__logo{
-    color: var(--primary-logo-color);
-}
+
 
 
 

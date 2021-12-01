@@ -1,0 +1,24 @@
+.button-filter{
+    padding: 6px 22px;
+
+    background-color: $btn-filter-bg-color;
+    color: $title-text-color;
+    cursor: pointer;
+    border: unset;
+    border-radius: 4px;
+
+    transition: background-color $transition-tmting $transition-cubic, color $transition-tmting $transition-cubic;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+
+    &:hover,
+    &:focus
+    {
+        background-color: $accent-color;
+        color: $primary-white-color;
+    }
+
+}

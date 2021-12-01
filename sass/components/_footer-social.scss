@@ -1,0 +1,9 @@
+.footer-social {
+    margin-left: 70px;
+    padding-top: 12px;
+
+    &__title {
+        @extend %footer-title;
+    }
+
+}
